@@ -7,6 +7,8 @@
 using namespace std;
 
 int main() {
+    // Vaihdetaan Windowsin konsolin merkistö UTF-8:ksi, jotta ääkköset näkyvät oikein
+    system("chcp 65001 > nul");
     // Osoitin
     int a = 5;
     cout << "a:n arvo on: " << a << " ja osoite on: " << &a << endl;
